@@ -1,0 +1,125 @@
+{
+    "name": "FedClass_0-CIFAR10-ResNet56_2",
+    "seed": 2,
+    "base_path": "saved_models/CIFAR10/FedClassResNet56_2/",
+    "save_path": "saved_models/CIFAR10/FedClassResNet56_2/model",
+    "device_id": 5,
+    "exp_type": "FedClass",
+    "dataset": "CIFAR10",
+    "train_size": 45000,
+    "val_size": 5000,
+    "depth": 56,
+    "num_classes": 10,
+    "beta": 0,
+    "lr": 0.05,
+    "n_devices": 20,
+    "n_device_per_round": 20,
+    "global_epochs": 160,
+    "scheduling": false,
+    "distillation": false,
+    "patience": 10,
+    "local_epochs": 10,
+    "n_models": 8,
+    "confs": [
+        27,
+        25,
+        23,
+        21,
+        18,
+        16,
+        12,
+        8
+    ],
+    "n_device_confs": [
+        6,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+    ],
+    "n_blocks": null,
+    "num_blocks": [
+        [
+            27,
+            27,
+            27,
+            27,
+            27,
+            27
+        ],
+        [
+            25,
+            25
+        ],
+        [
+            23,
+            23
+        ],
+        [
+            21,
+            21
+        ],
+        [
+            18,
+            18
+        ],
+        [
+            16,
+            16
+        ],
+        [
+            12,
+            12
+        ],
+        [
+            8,
+            8
+        ]
+    ],
+    "device_num_blocks": [
+        27,
+        27,
+        27,
+        27,
+        27,
+        27,
+        25,
+        23,
+        21,
+        18,
+        16,
+        12,
+        8,
+        25,
+        23,
+        21,
+        18,
+        16,
+        12,
+        8
+    ],
+    "fraction_probabilities": null,
+    "train_nums": [
+        13500,
+        4500,
+        4500,
+        4500,
+        4500,
+        4500,
+        4500,
+        4500
+    ],
+    "val_nums": [
+        1500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500,
+        500
+    ]
+}
